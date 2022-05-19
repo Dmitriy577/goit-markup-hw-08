@@ -6,27 +6,48 @@
     object-fit: cover;
     text-align: center;
     background: #2f303a;
-    background-image: linear-gradient(to bottom,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-      url(.././images/mobile/hero-mobel.jpg);
+    background-image: -webkit-gradient(linear,
+    left top, left bottom,
+    from(rgba(47, 48, 58, 0.4)),
+    to(rgba(47, 48, 58, 0.4))),
+  url(../images/mobile/hero-mobel.jpg);  background-image: -o-linear-gradient(top,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+  url(../images/mobile/hero-mobel.jpg);  background-image: linear-gradient(to bottom,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+  url(../images/mobile/hero-mobel.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   
     @media (min-width: 768px) {
-      background-image: linear-gradient(to bottom,
+      background-image: -webkit-gradient(linear,
+          left top, left bottom,
+          from(rgba(47, 48, 58, 0.4)),
+          to(rgba(47, 48, 58, 0.4))),
+        url(../images/tablet/Tablet-hero-img.jpg);background-image: -o-linear-gradient(top,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)),
-        url(.././images/tablet/Tablet-hero-img.jpg);
+        url(../images/tablet/Tablet-hero-img.jpg);background-image: linear-gradient(to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/tablet/Tablet-hero-img.jpg);
     }
   
     @media (min-width: 1200px) {
       padding: 200px 0;
-      background-image: linear-gradient(to bottom,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)),
-        url(.././images/desktop/background.jpg);
+      background-image: -webkit-gradient(linear,
+      left top, left bottom,
+      from(rgba(47, 48, 58, 0.4)),
+      to(rgba(47, 48, 58, 0.4))),
+    url(../images/desktop/background.jpg);background-image: -o-linear-gradient(top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/desktop/background.jpg);background-image: linear-gradient(to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/desktop/background.jpg);
     }
   }
   

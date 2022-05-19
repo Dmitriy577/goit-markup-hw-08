@@ -42,6 +42,9 @@
     @media (max-width: 1200px) {
       margin: 20px 0 60px 0;
     }
+    &__item:first-child {
+      margin-top: 20px;
+    }
 
     &__item:not(:last-child) {
       margin-bottom: 8px;
