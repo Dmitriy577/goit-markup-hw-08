@@ -37,7 +37,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1199px) {
   .title-h2 {
     margin-bottom: 30px;
     font-weight: 700;
