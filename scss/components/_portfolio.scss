@@ -21,7 +21,7 @@
   }
 
   &__list {
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
       flex-basis: calc((100% - 1 * 30px) / 2);
     }
   }
@@ -95,15 +95,6 @@
   }
 }
 
-.blok-projects-147 {
-  @media (max-width: 1199px) {
-    height: 147px;
-  }
-
-  @media (max-width: 767px) {
-    height: auto;
-  }
-}
 
 .blok-projects {
 
